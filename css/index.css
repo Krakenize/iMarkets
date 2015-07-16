@@ -1,0 +1,37 @@
+﻿body {
+}
+.icon-bar.five-up {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.icon-bar {
+    background: #333333;
+}
+.icon-bar>a:hover {
+    background: #000000;
+}
+.ctg-item{
+     border: 1px solid #ddd;
+     padding: 10px 15px;
+     display: block;
+}
+.ctg-item:active{
+      color: #fff;
+      background-color: #428bca;
+      border-color: #428bca;
+}
+.ctg-item span{
+      color: #555;
+      font-size: 20px;
+}
+.ctg-item img{
+      width: 10%;
+}
+.ctg-table {
+      padding-bottom: 30%;
+}
+.black_active {
+    background: #000000;
+}

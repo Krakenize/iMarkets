@@ -1,0 +1,72 @@
+/* Your app custom files in this file */
+/* Tab bar icons */
+i.tabbar-demo-icon-1 {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons/1.png);
+}
+.active i.tabbar-demo-icon-1 {
+  background-image: url(../images/icons/1.png);
+}
+i.tabbar-demo-icon-2 {
+  width: 25px;
+  height: 30px;
+  background-image: url(../images/icons/2.png);
+}
+.active i.tabbar-demo-icon-2 {
+  background-image: url(../images/icons/2.png);
+}
+i.tabbar-demo-icon-3 {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons/3.png);
+}
+.active i.tabbar-demo-icon-3 {
+  background-image: url(../images/icons/3.png);
+}
+i.tabbar-demo-icon-4 {
+  width: 25px;
+  height: 30px;
+  background-image: url(../images/icons/4.png);
+}
+.active i.tabbar-demo-icon-4 {
+  background-image: url(../images/icons/4.png);
+}
+i.tabbar-demo-icon-5 {
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/icons/5.png);
+}
+.active i.tabbar-demo-icon-5 {
+  background-image: url(../images/icons/5.png);
+}
+.facebook-card .card-header {
+  display: block;
+  padding: 10px;
+}
+.facebook-card .facebook-avatar {
+  float: left;
+}
+.facebook-card .facebook-name {
+  margin-left: 44px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.facebook-card .facebook-date {
+  margin-left: 44px;
+  font-size: 13px;
+  color: #8e8e93;
+}
+.facebook-card .card-footer {
+  background: #fafafa;
+}
+.facebook-card .card-footer a {
+  color: #81848b;
+  font-weight: 500;
+}
+.facebook-card .card-content img {
+  display: block;
+}
+.facebook-card .card-content-inner {
+  padding: 15px 10px;
+}  
