@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -437,5 +437,36 @@
     <script type="text/javascript" src="scripts/framework7.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="scripts/my-app.js"></script>
+    <script id="item" type="text/template7">
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
+        <div class="center sliding">{{title}}</div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="about" class="page">
+        <div class="page-content">
+            <div class="content-block">
+                <img src="{{image}}" width="100%">
+                <p>{{description}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+</script>
+<script>
+    var draw = function() {
+        var template = $$('#item').html();
+        var compiledTemplate = Template7.compile(template);
+        var context = {
+            title: "kraken",
+            image: "http://www.fubiz.net/wp-content/uploads/2012/03/the-kraken-existence2.jpg",
+            description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At repellat et blanditiis dicta repudiandae illo veniam consequatur natus, accusantium quod hic fuga enim vel rem, velit sequi nulla iure ex!"
+        };
+        var html = compiledTemplate(context);
+        view1.loadContent(html)
+    };
+</script>
 </body>
 </html>
