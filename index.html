@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/framework7.min.css">
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="scripts
+    /gmaps.js"></script>
 </head>
 <body>
     <!-- Status bar overlay for fullscreen mode-->
@@ -51,100 +54,67 @@
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Одежда</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Одежда</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Обувь</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Обувь</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">В подарок</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">В подарок</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Все для дома</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Все для дома</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Автозапчасти</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Автозапчасти</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Строй мир</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Строй мир</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Детский мир</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Детский мир</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Элитные продукты</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Элитные продукты</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Спорт</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Спорт</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Кратсота и здоровье</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Кратсота и здоровье</div>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="views/items.html" class="item-link item-content">
                                             <div class="item-media"><i class="icon icon-f7"></i></div>
-                                            <div class="item-inner">
-                                                <div class="item-title">Разное</div>
-                                                <div class="item-after">Label</div>
-                                            </div>
+                                            <div class="item-inner item-title">Разное</div>
                                         </a>
                                     </li>
                                 </ul>
@@ -184,6 +154,15 @@
                                         <div class="item-content">
                                             <div class="item-inner">
                                                 <div class="item-title">Services</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="views/map.html" class="item-link">
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Show Map</div>
                                             </div>
                                         </div>
                                     </a>
@@ -468,5 +447,6 @@
         view1.loadContent(html)
     };
 </script>
+<script src="scripts/map.js"></script>
 </body>
 </html>
